@@ -52,9 +52,15 @@
 					</menu>
 				</div>
 				<a href="/go_full" class="button_big">MAKE A VIDEO</a>
-			</div>
+			        </div>
 		</div>
-	        <div class="warning"><strong>i am trying to find out the cause of videos made on jewmber animate not appearing on it. so you will have to preview the video you made until this bug gets fixed.</a>
+		<div class="warning"><strong>I was just notified by Spark that GoAnimate Inc. wanted me to <a
+					href="https://media.discordapp.net/attachments/741394845679091792/778077861650759711/unknown.png">cease
+					development on Wrapper</a> ... again.</strong><br>This instance of Wrapper will be taken down any
+			time before
+			2020-11-17 09:00 UTC.<br><a href='https://github.com/GoAnimate-Wrapper/GoAnimate-Wrapper/projects/1'>Link
+				to a progress map of the project on GitHub</a>
+		</div>
 	</header>
 	<table>
 		<thead>
@@ -65,14 +71,14 @@
 				<td></td>
 			</tr>
 		</thead>
-		</tbody></tbody>
+		<tbody></tbody>
 		<tfoot>
 			<tr>
 				<td colspan="127"><a id="load_more" href="javascript:;">LOAD MORE...</a></td>
 			</tr>
 		</tfoot>
 	</table>
-        <form enctype='multipart/form-data' action='/upload_movie' method='post'>
+	<form enctype='multipart/form-data' action='/upload_movie' method='post'>
 		<input id='file' type="file" onchange="this.form.submit()" name='import' accept=".xml" />
 	</form>
 	<script>
@@ -119,7 +125,7 @@
 
 		body {
 			margin: 0;
-			background-color: #333;
+			background-color: #fff;
 			color: #474747;
 			font-size: 16px;
 			font-weight: 400;
@@ -178,14 +184,8 @@
 		}
 
 		.button_big {
-			background-image: linear-gradient(green, darkgreen);
+			background-color: #d85e27;
 			width: 160px;
-			 box-shadow:
-        inset 0 0 2px 0 rgba(255,255,255,.4),
-        inset 0 0 3px 0 rgba(0,0,0,.4),
-        inset 0 0 3px 5px rgba(0,0,0,.05),
-        2px 2px 4px 0 rgba(0,0,0,.25);
-		text-shadow: 0 0 2px rgba(0,0,0,.3);
 		}
 
 		.button_big:hover {
@@ -193,7 +193,7 @@
 		}
 
 		.button_small:hover {
-			color: #129919;
+			color: #d85e27;
 		}
 
 		.button_big:hover,
@@ -203,7 +203,7 @@
 
 		.char_dropdown:hover>:nth-child(1) {
 			cursor: context-menu;
-			color: #129919;
+			color: #d85e27;
 		}
 
 		.char_dropdown>menu {
@@ -243,7 +243,7 @@
 		}
 
 		.char_dropdown>menu>a:hover {
-			color: #129919;
+			color: #d85e27;
 			background-color: #f5f5f5;
 		}
 
@@ -267,6 +267,9 @@
 			font-size: 12px;
 		}
 
+		.warning>a {
+			color: #5596e6;
+		}
 
 		table {
 			width: 100%;
@@ -462,3 +465,14 @@
 
 		@font-face {
 			font-family: 'GlyphiconsRegular';
+			src: url('./glyphicons-regular.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+		}
+	</style>
+</body>
+
+
+		
+
+
